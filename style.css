@@ -589,7 +589,131 @@ header{
 
 .single-match i{
     font-size:40px;
+    padding:0px 20px 10px 20px;
 }
+
+.single-match h5{
+    margin-bottom:10px;
+}
+
+.single-match p{
+    color:#6D809C;
+    font-size:14px;
+
+}
+
+.single-match:nth-child(2){
+    border:4px solid white;
+}
+
+
+.fisrt-single-match h2{
+    line-height:1.5;
+    letter-spacing:0.1em;
+}
+
+
+/* six section responsive code start */
+
+
+@media only screen and (max-width:688px){
+    
+.match-parent{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    grid-gap:25px;
+    margin:0px 30px;
+}
+
+.fisrt-single-match h2{
+    text-align:center;
+}
+
+}
+
+
+
+@media only screen and (min-width:689px) and (max-width:1099px){
+    
+    .match-parent{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-gap:35px;
+        margin:0px 70px;
+    }
+
+
+    
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
